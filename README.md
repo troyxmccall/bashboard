@@ -14,4 +14,4 @@
 
 When you want to deploy
 
-$ meteor deploy yourbashboardname.meteor.com --settings settings.json`
+$ `meteor deploy yourbashboardname.meteor.com --settings settings.json`
