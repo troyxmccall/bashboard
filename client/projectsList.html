@@ -1,0 +1,22 @@
+<template name="projectsListHead">
+  <tr>
+    <th>Project</th>
+    <th>People</th>
+    <th>Completion</th>
+    <th>Todos</th>
+    <th>Issues</th>
+  </tr>
+</template>
+<template name="projectsList">
+  {{#each projects}}
+    <tr>
+      <td>
+        <a href="{{app_url}}">{{title}}</a>
+      </td>
+      <td>{{{accesses}}}</td>
+      <td class="data-completion">{{completion_per}}%</td>
+      <td class="data-completion">{{todos}}</td>
+      <td>{{{issues}}}</td>
+    </tr>
+  {{/each}}
+</template>

@@ -1,0 +1,18 @@
+{
+  "basecamp": {
+    "url": "https://basecamp.com/{{YOUR_COMPANY_ID}}/api/v1/",
+    "agent": "{{AGENT_NAME}} ({{CONTACT_INFO}})",
+    "user": "{{EMAIL_ADDRESS}}",
+    "pass": "{{PASSWORD}}",
+    "botName": "{{BOT_ACCOUNT_NAME}}",
+    "httpTimeout": 5000
+  },
+  "bashboard": {
+    "pollIntervalDefault": 10000
+  },
+  "allowed_accounts": [
+    "tmccall@madebymode.com",
+    "troy@madebymode.com",
+    "troyxmccall@gmail.com"
+  ]
+}
