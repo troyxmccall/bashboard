@@ -2,6 +2,8 @@
 
 **Bashboard** is a [Basecamp](http://basecamp.com) dashboard developed in [Meteor](http://meteor.com). It allows managers to get an overview of project status without the need to maintain a separate spreadsheet or browse through Basecamp.
 
+**Basecamp Auth** is managed through https://github.com/troyxmccall/meteor-basecamp-http
+
 `$ curl https://install.meteor.com/ | sh `
 
 `$ cp settings.example.json settings.json`
