@@ -101,11 +101,9 @@ Bashboard.combineProjects = function(projects1, projects2) {
 }
 
 // Update Project
-// Basecamp Projects (that we're tracking in Bashboard) are either COURSES
-// or PROJECTS. Basecamp Project names should conform to the following
-// naming convention:
+// Basecamp Projects (that we're tracking in Bashboard).
+// Basecamp Project names should conform to the following naming convention:
 //
-// Projects:
 // {client_name} : {project_name} : {year?}
 Bashboard.updateProject = function(project) {
 

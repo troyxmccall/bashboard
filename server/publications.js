@@ -5,7 +5,7 @@ Meteor.publish('projects', function() {
   return Projects.find({}, {
     fields: {
       'type': 1,
-      'title': 1,
+      'name': 1,
       'app_url': 1,
       'remaining_count': 1,
       'completed_count': 1,
