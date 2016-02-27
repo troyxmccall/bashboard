@@ -8,6 +8,7 @@
     "httpTimeout": 5000
   },
   "bashboard": {
+    "issuesListName": "ISSUES",
     "pollIntervalDefault": 10000
   },
   "allowed_accounts": [

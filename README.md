@@ -11,3 +11,7 @@
 `$ meteor --settings settings.json`
 
 `$ open http://localhost:3000/`
+
+When you want to deploy
+
+$ meteor deploy yourbashboardname.meteor.com --settings settings.json`
