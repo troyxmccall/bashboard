@@ -23,14 +23,15 @@ Template.projectsList.helpers({
 });
 
 var displayAccesses = function(people) {
+
   var html = '';
-
-  people.forEach(function(personId) {
-    person = People.findOne({
-      id: personId
+  if (people) {
+    people.forEach(function(personId) {
+      person = People.findOne({
+        id: personId
+      });
+      html += '<img alt="' + person.name + '" src="' + person.avatar_url + '"> ';
     });
-    html += '<img alt="' + person.name + '" src="' + person.avatar_url + '"> ';
-  });
-
+  }
   return html;
 }
